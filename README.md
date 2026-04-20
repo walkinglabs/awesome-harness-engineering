@@ -137,6 +137,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Harness Evolver](https://github.com/raphaelchristi/harness-evolver) - Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and git worktree isolation. Based on Meta-Harness (Lee et al., 2026).
 - [skills.sh](https://skills.sh) - A community marketplace for discovering, sharing, and installing reusable AI agent skills across runtimes like Claude Code and OpenClaw, making harness capabilities portable and composable.
 - [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) - Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and `unicli mcp serve` that auto-registers one MCP tool per adapter. ~80 tokens per invocation.
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Zero-config intelligence layer for AI coding agents that adds cross-session memory, adversarial hallucination defense, code pattern analysis, and self-evolving quality rules. Auto-detects the project environment and provides an MCP server so agents get persistent context and guardrails without manual setup.
 
 ## Contributing
 
