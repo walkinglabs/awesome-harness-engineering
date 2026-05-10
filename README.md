@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/walkinglabs-awesome-harness-engineering-badge.png)](https://mseep.ai/app/walkinglabs-awesome-harness-engineering)
+
 # Awesome Harness Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of articles, playbooks, benchmarks, specifications, and open-source projects for harness engineering: the practice of shaping the environment around AI agents so they can work reliably.
