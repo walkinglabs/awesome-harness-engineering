@@ -149,7 +149,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - Geoffrey Huntley's write-up of "Ralph," a minimalist `while :; do cat PROMPT.md | claude-code; done` harness pattern that uses single-task loops, deterministic prompt stacking, and bounded subagent parallelism to drive long-running autonomous coding.
 - [skills.sh](https://skills.sh) - A community marketplace for discovering, sharing, and installing reusable AI agent skills across runtimes like Claude Code and OpenClaw, making harness capabilities portable and composable.
 - [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) - Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and `unicli mcp serve` that auto-registers one MCP tool per adapter. ~80 tokens per invocation.
-- [Squadron](https://docs.shquadron.sh) - Squadron is a declarative framework for building and running multi-agent AI workflows. You describe agents, tools, models, and the task graph entirely in HCL configuration.
+- [Squadron](https://docs.squadron.sh) - Squadron is a declarative framework for building and running multi-agent AI workflows. You describe agents, tools, models, and the task graph entirely in HCL configuration.
 
 ## Contributing
 
