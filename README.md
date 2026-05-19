@@ -132,6 +132,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 ## Runtimes, Harnesses & Reference Implementations
 
+- [agent-harness](https://github.com/ar27111994/agent-harness) - Reproducible supply-chain lifecycle for reusable coding-agent assets: authority-ranked discovery, pinned mirror locks, quarantine routing, staged activation, and host-specific wire-in across OpenCode and other hosts.
 - [HEAAL](https://github.com/hyun06000/AIL) - Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).
 
 - [Agent Frameworks, Runtimes, and Harnesses, Oh My!](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) - LangChain's decomposition of what belongs in a framework, a runtime, and a harness.
