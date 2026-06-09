@@ -6,6 +6,15 @@ Harness engineering sits at the intersection of context engineering, evaluation,
 
 Generic agent tooling is out of scope unless the page directly covers harness design, context management, evaluation, runtime control, or other reliability-critical harness primitives.
 
+<p align="center">
+  <a href="https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-harness-engineering">
+    <img src="./assets/atlas-cloud-logo.png" alt="Atlas Cloud logo" width="220">
+  </a>
+</p>
+
+> 🎁 **[Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-harness-engineering)** gives harness-oriented agent workflows a single OpenAI-compatible backend for models like DeepSeek, Qwen, GLM, Kimi, and MiniMax, which is useful when you want to compare model behavior inside the same eval, runtime, or coding-agent harness without rewriting every integration.
+> Budget-friendly for coding-agent experiments: [coding plan](https://www.atlascloud.ai/console/coding-plan)
+
 ## Contents
 
 - [Courses & Learning Resources](#courses--learning-resources)
@@ -16,6 +25,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Evals & Observability](#evals--observability)
 - [Benchmarks](#benchmarks)
 - [Runtimes, Harnesses & Reference Implementations](#runtimes-harnesses--reference-implementations)
+- [Atlas Cloud](#atlas-cloud)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -150,6 +160,10 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - Geoffrey Huntley's write-up of "Ralph," a minimalist `while :; do cat PROMPT.md | claude-code; done` harness pattern that uses single-task loops, deterministic prompt stacking, and bounded subagent parallelism to drive long-running autonomous coding.
 - [skills.sh](https://skills.sh) - A community marketplace for discovering, sharing, and installing reusable AI agent skills across runtimes like Claude Code and OpenClaw, making harness capabilities portable and composable.
 - [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) - Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and `unicli mcp serve` that auto-registers one MCP tool per adapter. ~80 tokens per invocation.
+
+## Atlas Cloud
+
+- [Atlas Cloud](https://www.atlascloud.ai/?utm_source=github&utm_medium=link&utm_campaign=awesome-harness-engineering) - OpenAI-compatible inference platform that fits harness engineering workflows well when you want one backend for coding-agent evals, long-running task loops, and model comparisons across DeepSeek, Qwen, GLM, Kimi, MiniMax, and more. Budget-friendly for coding tasks via the [coding plan](https://www.atlascloud.ai/console/coding-plan).
 
 ## Contributing
 
