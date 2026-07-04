@@ -59,6 +59,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Humans and Agents in Software Engineering Loops](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) - A clear mental model for where humans should strengthen the harness instead of micromanaging every artifact.
 - [Claude Code: Best practices for agentic coding](https://code.claude.com/docs) - Anthropic's practical recommendations for repo structure, checkpoints, validation, and delegation in agentic coding workflows.
 - [Lurkr](https://github.com/agentveil-protocol/lurkr) - Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in `@tool`, direct prompt interpolation, and unverified MCP endpoints.
+- [guardrail-rs](https://github.com/Mattral/guardrail-rs) - Zero-Python, production-grade LLM security reverse proxy written in Rust. Blocks prompt injection, redacts PII, and enforces policies with sub-millisecond overhead. Fails open, hot-reloadable, Docker/K8s ready. Published on crates.io with `cargo install guardrail-cli`. Includes [Colab quickstart demo](https://colab.research.google.com/github/Mattral/guardrail-rs/blob/main/examples/notebooks/quickstart_colab.ipynb).
 
 ## Specs, Agent Files & Workflow Design
 
