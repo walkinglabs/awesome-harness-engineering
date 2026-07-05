@@ -39,6 +39,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Many Hands Engineering](https://github.com/mseeks/many-hands-engineering/blob/main/many-hands-engineering.pdf) - A handbook framing the layer above the per-agent harness: how multiple harnessed agents share a commons, where decisions belong on a planned / emergent spectrum, and how human stewardship operates at a different cadence than agent execution. Treats harness engineering as a critical layer of "terrain" the framework sits on top of.
 
 ## Context, Memory & Working State
+- [Context Kit](https://github.com/JDDavenport/context-kit) - 4 Personal Context Artifact (PCA) templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. Gives AI agents static Markdown-based identity context that persists across sessions. Addresses the identity-amnesia problem in long-running coding agents — the agent knows who it's working for before it reads any code. MIT, one-command install.
 
 - [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) - Anthropic's guidance on managing the context window as a working memory budget rather than a dumping ground.
 - [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) - Manus' detailed playbook on KV-cache locality, tool masking, filesystem memory, and keeping useful failures in-context.
