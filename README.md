@@ -85,6 +85,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) - Anthropic on how runtime configuration can move coding benchmark scores by more than many leaderboard gaps.
 - [Evaluating Deep Agents: Our Learnings](https://blog.langchain.com/evaluating-deep-agents-our-learnings/) - LangChain's practical breakdown of single-step, full-run, and multi-turn eval design for stateful agents.
 - [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
+- [Agent Island](https://github.com/tristan666666/agent-island) - Local observability layer for coding-agent sessions: reads the transcript files Claude Code, Codex, Antigravity, Grok and Cursor already write to disk, derives working/stalled/your-turn state, and computes token usage and estimated cost on-device with no account or telemetry. Published state-contract fixtures at https://agent-island.dev/research/session-state-fixtures/
 
 ## Benchmarks
 
