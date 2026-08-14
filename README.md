@@ -22,6 +22,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 ## Courses & Learning Resources
 
 - [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) - A project-based course repository on making Codex and Claude Code more reliable, centered on an Electron personal knowledge base app with lecture handouts, example artifacts, and practical harness projects.
+- [DeepSeek Harness Handbook](https://github.com/sandbaseai/deepseek-harness-handbook) - An agent-first, source-backed guide to operating and extending DeepSeek Harness, with practical coverage of runtime composition, session events, tool policy, sandbox boundaries, MCP, headless CI, and platform-specific failure modes.
 
 ## Foundations
 
