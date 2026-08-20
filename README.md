@@ -263,6 +263,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 - [Bring Your AI MCP](https://github.com/unitedideas/bringyour-mcp) - Public harness-migration reference for Claude Code to Codex moves, with installable auditor artifacts and explicit validation notes for hooks, MCP config, and instruction-file differences.
 - [skills.sh](https://skills.sh) - A community marketplace for discovering, sharing, and installing reusable AI agent skills across runtimes like Claude Code and OpenClaw, making harness capabilities portable and composable.
+- [DSH Plugin Store](https://github.com/sandbaseai/dsh-plugin-store) - Inspectable DeepSeek Harness bundle that turns runtime-verified plugin discovery into a local Settings workflow, admits only verified npm package specs into profile layers, and surfaces installed loader state.
 - [stelow](https://github.com/calionauta/stelow) - Agentic product-workflow harness with Shape Up boundaries, adversarial plan review, acceptance-based execution contracts, and audit loops.
 - [Build A Harness](https://github.com/3IVIS/buildaharness) - Apache-2.0 visual canvas for agent harnesses that compiles a runtime-neutral FlowSpec to several orchestration frameworks.
 - [agent-harness](https://github.com/ar27111994/agent-harness) - Reproducible lifecycle for coding-agent assets with authority-ranked discovery, pinned mirrors, quarantine routing, staged activation, and host-specific wiring.
