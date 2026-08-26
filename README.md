@@ -251,6 +251,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.
 - [Squadron](https://github.com/mlund01/squadron) - MIT-licensed declarative runtime for multi-agent workflows defined in HCL, including orchestration, state, dependency resolution, routing, persistence, and resume.
 - [Cowork Forge](https://github.com/sopaco/cowork-forge) - MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.
+- [Okto Nexus](https://github.com/OktoLabsAI/okto-nexus) - Local-first MCP coordination hub for teams of AI coding agents, with durable identities and messaging, single-winner handoff claims to prevent duplicate work, human-in-the-loop approval gates on risky actions, and dependency-aware handoffs with verification — all from one hub with no cloud broker.
 
 ### Browser, MCP & Tool Integration
 
