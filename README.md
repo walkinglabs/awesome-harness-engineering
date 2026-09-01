@@ -222,6 +222,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Apache-2.0 agent runtime with persistent sessions, governed MCP tools, credential handling, audit and replay, and interchangeable local or sandboxed execution backends.
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 - [BitRouter](https://github.com/bitrouter/bitrouter) - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
+- [Bifrost](https://github.com/maximhq/bifrost) - Go-native, OpenAI-compatible AI gateway for harnesses that need multi-provider routing, automatic failover, load balancing, guardrails, MCP gateway support, and built-in logs, metrics, and tracing.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
 
 ### Sandboxes & Execution Infrastructure
