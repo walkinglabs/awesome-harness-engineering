@@ -75,7 +75,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [OpenHands Context Condensensation for More Efficient AI Agents](https://openhands.dev/blog/openhands-context-condensensation-for-more-efficient-ai-agents) - OpenHands' design for bounded conversation memory that preserves goals, progress, critical files, and failing tests while keeping long-running coding sessions efficient.
 - [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md) - A practical guide to creating durable, repo-local instructions that agents can repeatedly follow.
 - [Deterministic Context Routing](https://github.com/ai-erp-collab/deterministic-context-routing) - A context-management methodology that routes only the necessary-and-sufficient context to an agent through a deterministic chain (module registry → wiki → session state), cutting overread and context loss on large, under-documented multi-module codebases.
-- [DevProjex](https://github.com/Avazbek22/DevProjex) - GUI, TUI, and CLI tooling for selecting and exporting structured codebase context with folder trees, token estimates, ignore rules, and previews.
+- [DevProjex](https://github.com/Avazbek22/DevProjex) - GUI, TUI, CLI, and read-only MCP tooling for selecting and exporting structured codebase context with live preview, secret redaction, Git scopes, token budgets, and syntax-aware compression.
 
 ### Memory & Knowledge Systems
 
