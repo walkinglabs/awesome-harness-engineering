@@ -166,6 +166,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [SEC-bench](https://github.com/SEC-bench/SEC-bench) - A benchmark for evaluating LLM agents on real-world software security tasks including vulnerability reproduction and patching, stressing harness design around code execution, containerized environments, and security-aware tooling.
 - [SWE-bench Verified](https://www.swebench.com/) - A strong benchmark for software engineering agents working against real GitHub issues and tests, which makes harness choices around retrieval, patching, and validation highly visible.
 - [Terminal-Bench](https://www.tbench.ai/) - A benchmark suite for terminal-native agents operating in shells, filesystems, and verification-heavy environments, which is especially useful for comparing coding-agent harnesses.
+- [LoopArena](https://github.com/AMAP-ML/LoopArena) - Open benchmark for evaluating models as runtime Controllers around a separate, fixed coding Worker. [Paper](https://huggingface.co/papers/2608.28281) · [ModelScope](https://www.modelscope.cn/papers/2608.28281)
 
 ### Web, GUI & Computer Use
 
