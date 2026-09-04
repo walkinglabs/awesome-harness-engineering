@@ -243,6 +243,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agent AFK](https://github.com/griffinwork40/agent-afk) - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
 - [completely](https://github.com/23ag1/completely) - Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line harness that runs coding agents (Claude Code, Codex, Gemini CLI) across isolated task worktrees, with a Kanban task lifecycle, review gates, and typed merge and release-readiness boundaries.
 
 ### Multi-Agent Orchestration
 
