@@ -46,6 +46,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) - A project-based course repository on making Codex and Claude Code more reliable, centered on an Electron personal knowledge base app with lecture handouts, example artifacts, and practical harness projects.
 - [Phelan164/codex-howto](https://github.com/Phelan164/codex-howto) - A Codex-focused engineering curriculum with installable skills, repository instructions, scoped permissions, testing, review, orchestration, and reproducible token measurements for building an inspectable coding-agent harness.
 - [hardness1020/awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) - Trilingual architecture notes and runnable demos covering agent loops, tool execution, memory, permissions, context delivery, and orchestration.
+- [What Is an Agent Harness? Harness Engineering Explained](https://tej.as/blog/what-is-an-agent-harness) - A build-along write-up that grows a TypeScript browser agent from a bare loop that lies about success into a harness with guardrails, context trimming, deterministic trace verification, retries, and harness-handled login, with one branch per step in [basically-ai-harness](https://github.com/TejasQ/basically-ai-harness).
 
 ## Foundations
 
