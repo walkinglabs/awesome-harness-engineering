@@ -144,6 +144,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Better Harness](https://github.com/QoderAI/better-harness) - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
 - [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
 - [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
+- [self-auditing-agent](https://github.com/simin-yuan/self-auditing-agent) - A public audit log of one agent's real task in which every conclusion carries a runnable command and the record keeps the agent's own four bugs, one false positive, and one false discovery it caught itself: a concrete reference for making an agent's claims checkable by a third party and its failures part of the permanent record.
 
 ### Telemetry, Tracing & Performance
 
