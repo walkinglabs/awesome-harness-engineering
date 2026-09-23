@@ -103,6 +103,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [Spend rails for autonomous agents: a number, not a vibe](https://joeyycli.github.io/agent-ops-kit-guide/docs/spend-rails-for-autonomous-agents.html) - A concrete pattern for giving a scheduled agent real purchasing authority without real risk: a per-transaction autonomy line, an escalation threshold, a hard lifetime ceiling, and a transaction ledger as the actual enforcement mechanism instead of relying on the model's judgment.
 - [Distributed retry patterns: bounding blast radius across a fleet](https://loopandretry.github.io/posts/fleet-retry-patterns/) - Practitioner guidance on concurrency bounds, decorrelated backoff, circuit breakers, and idempotency for preventing agent retry storms.
+- [agent-body](https://github.com/1420079678-ctrl/agent-body) - Operates the plugin layer as a body instead of a tool list: a variable-interval heartbeat circulates directives and homeostasis state, reflex arcs fire on deterministic conditions with no model calls, a failure is attributed before anything is retried (missing tool, arguments, permission, timeout, network, not found, conflict), and a re-check closes the wound only once the organ succeeds again. Operational autonomy here is observed rather than asserted — every loop is readable from the runtime files it writes (vitals, bloodstream, pulse), and an organ that disappears degrades one capability instead of the whole body.
 
 ## Specs, Agent Files & Workflow Design
 
