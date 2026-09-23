@@ -258,6 +258,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) - Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and `unicli mcp serve` that auto-registers one MCP tool per adapter. ~80 tokens per invocation.
 - [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Inspectable runtime boundary for exposing a local agent or automation as a keyed LAN capability with target verification, bounded conversations, JSON output, and explicit exit codes.
 - [BrowserAct](https://github.com/browser-act/skills) - Open-source browser automation layer for agents with isolated parallel sessions, multi-account operation, and human handoff when automation is blocked.
+- [Cortex](https://github.com/cortex-docs/cortex) - Generates project-specific MCP servers from API contracts and Markdown, with typed tools, specifications, SDK guidance, and project documentation kept together as inspectable source.
 
 ### Workflow, Profiles & Asset Management
 
