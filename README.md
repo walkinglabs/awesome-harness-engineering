@@ -115,6 +115,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [GitHub Spec Kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.
 - [Context Repository-Driven Development (CRDD)](https://github.com/qual-lab/CRDD) - A repository-centered methodology for preserving product intent, decisions, specifications, evidence, and traceability as durable context while keeping approval authority with humans.
+- [Kibi](https://github.com/Looted/kibi) - Repo-local requirements linked to code and tests, with checks that help coding agents stay aligned with project intent.
 - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) - Thoughtworks on why strong specs make AI-assisted software delivery more dependable.
 
 ### Operating Principles & Human Oversight
