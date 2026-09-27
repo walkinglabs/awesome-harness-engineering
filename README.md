@@ -90,6 +90,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Code execution with MCP: building more efficient agents](https://www.anthropic.com/engineering/code-execution-with-mcp) - Anthropic's approach to giving agents controlled execution power through explicit, inspectable tool boundaries.
 - [Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents) - Anthropic's guidance on tool interfaces that are easier for models to call correctly and safely.
 - [mcp-guardian](https://github.com/S1LV3RJ1NX/mcp-guardian) - MCP proxy for progressive tool discovery, scope-based allow/block lists, and audit logging, reducing startup context while preventing blocked tools from being discovered or called.
+- [Unified AI System](https://github.com/happy520ai/unified-ai-system) - Self-hosted model and MCP gateway that filters each upstream server's tools through a per-server allowlist, applies per-key token budgets and rate limits, and records the governed calls, so a harness can be handed broad tool access without giving up spend control or an audit trail.
 
 ### Security, Authorization & Policy
 
