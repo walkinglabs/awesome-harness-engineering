@@ -281,6 +281,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Cowork Forge](https://github.com/sopaco/cowork-forge) - MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.
 - [5dive](https://github.com/5dive-ai/5dive) - MIT multi-agent harness that uses the OS as its control layer: each coding-agent CLI (Claude Code, Codex, Hermes and others) runs as its own Linux user and systemd service, and agents hand off work through one bash CLI and a shared SQLite task queue.
 - [hcom](https://github.com/aannoo/hcom) - MIT-licensed coordination layer for coding-agent harnesses, with hook-driven messaging, activity observation, agent spawning, and event subscriptions across terminals.
+- [Raven](https://github.com/EverMind-AI/Raven) - Apache-2.0 host agent that plans complex tasks as DAGs and orchestrates built-in and third-party agents such as Claude Code and Codex over ACP, CLI, or OpenAI-compatible APIs; its agent loop is split into Memory, Planning, Capability, and Action strategy modules that an experimental Curator rewrites per agent, installing a change only after it is verified.
 
 ### Browser, MCP & Tool Integration
 
