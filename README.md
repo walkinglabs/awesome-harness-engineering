@@ -251,6 +251,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.
 - [Squadron](https://github.com/mlund01/squadron) - MIT-licensed declarative runtime for multi-agent workflows defined in HCL, including orchestration, state, dependency resolution, routing, persistence, and resume.
 - [Cowork Forge](https://github.com/sopaco/cowork-forge) - MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.
+- [agent-manager](https://github.com/YoanWai/agent-manager) - Apache-2.0 terminal UI that keeps unmodified coding-agent CLIs in persistent tmux sessions with live status detection, revives a dead session on its own conversation, and ships an MCP server through which one agent can spawn another session, message it, and wait until it finishes.
 
 ### Browser, MCP & Tool Integration
 
