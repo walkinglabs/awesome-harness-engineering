@@ -87,6 +87,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [LWC](https://github.com/JanYork/llm-wiki-cli) - Local-first, source-grounded project memory that preserves verified decisions, Plan state, and source-linked Wiki and code context across coding-agent sessions.
 - [OpenViking](https://github.com/volcengine/OpenViking) - Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.
 - [pentimento](https://github.com/kjiwa/pentimento) - Derives status and lineage for the plan files coding agents leave behind, so a later session or its operator can tell which plan finished, which replaced which, and find the decisions inside them.
+- [Threadnote](https://github.com/threadnote/threadnote) - Local-first engineering memory for coding agents, with private session handoffs, reviewed knowledge tied to code citations, and optional Git-backed team sharing.
 
 ## Constraints, Guardrails & Safe Autonomy
 
