@@ -229,6 +229,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) - Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.
 - [Harbor](https://github.com/harbor-framework/harbor) - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
 - [Mitos](https://github.com/mitos-run/mitos) - Snapshot-fork microVM sandboxes that give agent sessions clean, isolated starting states with declarative lifecycle control and parallel execution.
+- [E2B](https://github.com/e2b-dev/E2B) - Apache-2.0 open-source sandboxed code-execution environments purpose-built for AI agents, with isolated runtimes, filesystem/network controls, and session lifecycle primitives for safe autonomous execution.
 
 ### Coding-Agent Harnesses
 
