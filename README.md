@@ -269,6 +269,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
 - [Revo](https://github.com/shyringo/revo) - MIT terminal harness whose unit of continuity is one long-lived agent life rather than a task-scoped session: cognition runs without user input, sleep/wake persists unfinished work and deliveries, and user input preempts in-flight parallel work.
 - [UNCUT](https://github.com/Balanov/uncut) - Inspectable MIT-licensed Go coding-agent harness with full-history requests, untruncated tool results, resumable JSONL sessions, and a reproducible lossless proof suite.
+- [Synaps](https://github.com/HaseebKhalid1507/SynapsCLI) - Rust agent harness for terminal coding agents: parallel subagents, a session daemon that terminals can share and resume, MCP tools, and plugins, across any model.
 
 ### Multi-Agent Orchestration
 
