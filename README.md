@@ -90,6 +90,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Code execution with MCP: building more efficient agents](https://www.anthropic.com/engineering/code-execution-with-mcp) - Anthropic's approach to giving agents controlled execution power through explicit, inspectable tool boundaries.
 - [Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents) - Anthropic's guidance on tool interfaces that are easier for models to call correctly and safely.
 - [mcp-guardian](https://github.com/S1LV3RJ1NX/mcp-guardian) - MCP proxy for progressive tool discovery, scope-based allow/block lists, and audit logging, reducing startup context while preventing blocked tools from being discovered or called.
+- [solvi](https://github.com/solvi-ai/solvi) - Python runtime whose Guard checks each proposed tool call (tool in the catalog, typed arguments, values quoted from the conversation, policy rules) and allows it, denies it or escalates it to a person, keeping a replayable trace: a fail-closed execution boundary written as code.
 
 ### Security, Authorization & Policy
 
