@@ -82,6 +82,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [wiki](https://github.com/plasma-ai/wiki) - Indexed Markdown knowledge bases that give agents incremental project context through deterministic indexes, scoped CLI access, and merge handling for parallel edits.
 - [Data Olympus](https://github.com/knaisoma/data-olympus) - Git-native project knowledge base and MCP server with governed proposal-to-acceptance workflows, validity windows, supersession chains, and retrieval of in-force engineering guidance.
 - [OpenViking](https://github.com/volcengine/OpenViking) - Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.
+- [pentimento](https://github.com/kjiwa/pentimento) - Derives status and lineage for the plan files coding agents leave behind, so a later session or its operator can tell which plan finished, which replaced which, and find the decisions inside them.
 
 ## Constraints, Guardrails & Safe Autonomy
 
