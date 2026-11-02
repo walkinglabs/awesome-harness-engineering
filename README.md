@@ -223,6 +223,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 - [BitRouter](https://github.com/bitrouter/bitrouter) - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
+- [theloop](https://github.com/paveler/theloop) - Apache-2.0 agent-loop engine behind a stateless HTTP API: the harness owns history, approvals, and billing, while write tools return deferred intents, so mutations wait for the harness to approve them.
 
 ### Sandboxes & Execution Infrastructure
 
