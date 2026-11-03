@@ -142,6 +142,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [Assessing internal quality while coding with an agent](https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html) - Thoughtworks on moving quality checks into the loop instead of relying on after-the-fact manual review.
 - [Better Harness](https://github.com/QoderAI/better-harness) - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
+- [Ponder](https://github.com/Quinnod345/ponder) - Zero-dependency Node.js CLI and Agent Skill that enforces a 7-step multi-role deliberation state machine (`skeptic`, `builder`, `dreamer`, `empath`), a `1.00` unit-coverage gate, convergence thresholds (`novelty < 0.05`, `churn < 0.10`), and an append-only JSONL review ledger (`.ponder/<slug>/ledger.jsonl`) before coding agents can close a review pass.
 - [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
 - [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
 
