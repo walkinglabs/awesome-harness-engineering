@@ -110,6 +110,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [AGENTS.md](https://github.com/agentsmd/agents.md) - A lightweight open format for repo-local instructions that tell agents how to work inside a codebase.
 - [agent.md](https://github.com/agentmd/agent.md) - A related standardization effort for machine-readable agent instructions across projects and tools.
+- [Duct](https://github.com/5hirish/duct) - MIT-licensed marketing agent whose repository is a worked example of repo-local instructions: an `AGENTS.md` per area (with `CLAUDE.md` symlinked to it), repo-local skills for recurring chores, and CI tests that fail when generated code crosses an architecture boundary.
 
 ### Spec-Driven Development
 
