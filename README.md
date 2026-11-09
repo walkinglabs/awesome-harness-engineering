@@ -137,7 +137,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Trace grading](https://platform.openai.com/docs/guides/trace-grading) - OpenAI documentation on grading agent traces directly, which is especially helpful for long multi-step tasks.
 - [Inspect AI](https://inspect.aisi.org.uk/) - UK AISI's open-source evaluation framework with solver, scorer, sandboxing, tool-use, MCP, and log-viewer primitives for building reproducible agent eval harnesses.
 - [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) - Anthropic's guidance on what to measure when agents have many possible trajectories to success or failure.
-- [Evaluating Deep Agents: Our Learnings](https://blog.langchain.com/evaluating-deep-agents-our-learnings/) - LangChain's practical breakdown of single-step, full-run, and multi-turn eval design for stateful agents.
+- [Evaluating Deep Agents: Our Learnings](Rhttps://blog.langchain.com/evaluating-deep-agents-our-learnings/) - LangChain's practical breakdown of single-step, full-run, and multi-turn eval design for stateful agents.
 
 ### Verification & Quality Gates
 
@@ -224,6 +224,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 - [BitRouter](https://github.com/bitrouter/bitrouter) - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
+- [TrueForge](https://github.com/truefoundry/trueforge) - TrueFoundry's open-source agent harness: runs the execution loop (model calls, MCP tools, git-backed `SKILL.md` packs, sandbox-as-a-tool, tool approval, session state) and exposes it as a chat UI, HTTP API with TypeScript SDK, and embeddable UI SDK. Harness capabilities include subagents, deferred tool loading, Code Mode, large-result offloading, and compaction; secrets stay in the harness rather than the sandbox. Scales from local mode (single process, SQLite) to hosted mode (Postgres, Redis, Helm), with published cost/accuracy benchmarks against Claude Managed Agents and deepagents.
 
 ### Sandboxes & Execution Infrastructure
 
