@@ -182,6 +182,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [VisualWebArena](https://jykoh.com/vwa) - A benchmark for multimodal web agents on realistic visually grounded tasks, extending WebArena with image and screenshot inputs that stress harness support for visual context in browser environments.
 - [WebArena](https://webarena.dev/) - A standalone, self-hostable web environment for evaluating autonomous agents on realistic tasks, making it a reproducible baseline for comparing web-facing harness designs.
 - [WebArena-Verified](https://github.com/ServiceNow/webarena-verified) - A verified web-agent benchmark with curated tasks and deterministic evaluators over agent responses and captured network traces, making it a good fit for measuring web-facing harnesses.
+- [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) - Website reconstruction tasks with native Harbor configurations and a separate no-network verifier for checking coding-agent implementations.
 - [WorkArena](https://github.com/ServiceNow/WorkArena) - A benchmark for browser agents on common knowledge-work tasks, useful for comparing harnesses on realistic enterprise-style web workflows instead of toy browser tasks.
 
 ### Tools, APIs & MCP
