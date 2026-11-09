@@ -289,6 +289,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [agent-harness](https://github.com/ar27111994/agent-harness) - Reproducible lifecycle for coding-agent assets with authority-ranked discovery, pinned mirrors, quarantine routing, staged activation, and host-specific wiring.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Codex CLI and Desktop profile launcher that isolates authentication, configuration, sessions, connectors, plugins, and logs by `CODEX_HOME`.
 - [AgentPlane](https://github.com/basilisk-labs/agentplane) - Git-native workflow-control harness that stores task records, policy, verification evidence, and closure state as reviewable repository artifacts.
+- [harness-scope](https://github.com/shimo4228/harness-scope) - MIT Claude Code mod that scopes a global harness per repo: named profiles in `~/.claude` decide which skills, agents, instruction files and tools each repo loads, with no network requests or model calls.
 
 ## Contributing
 
