@@ -87,6 +87,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [LWC](https://github.com/JanYork/llm-wiki-cli) - Local-first, source-grounded project memory that preserves verified decisions, Plan state, and source-linked Wiki and code context across coding-agent sessions.
 - [OpenViking](https://github.com/volcengine/OpenViking) - Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.
 - [pentimento](https://github.com/kjiwa/pentimento) - Derives status and lineage for the plan files coding agents leave behind, so a later session or its operator can tell which plan finished, which replaced which, and find the decisions inside them.
+- [Threadnote](https://github.com/threadnote/threadnote) - Local-first engineering memory for coding agents, with private session handoffs, reviewed knowledge tied to code citations, and optional Git-backed team sharing.
 
 ## Constraints, Guardrails & Safe Autonomy
 
@@ -269,6 +270,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
 - [Revo](https://github.com/shyringo/revo) - MIT terminal harness whose unit of continuity is one long-lived agent life rather than a task-scoped session: cognition runs without user input, sleep/wake persists unfinished work and deliveries, and user input preempts in-flight parallel work.
 - [UNCUT](https://github.com/Balanov/uncut) - Inspectable MIT-licensed Go coding-agent harness with full-history requests, untruncated tool results, resumable JSONL sessions, and a reproducible lossless proof suite.
+- [Synaps](https://github.com/HaseebKhalid1507/SynapsCLI) - Rust agent harness for terminal coding agents: parallel subagents, a session daemon that terminals can share and resume, MCP tools, and plugins, across any model.
 
 ### Multi-Agent Orchestration
 
@@ -280,6 +282,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Cowork Forge](https://github.com/sopaco/cowork-forge) - MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.
 - [5dive](https://github.com/5dive-ai/5dive) - MIT multi-agent harness that uses the OS as its control layer: each coding-agent CLI (Claude Code, Codex, Hermes and others) runs as its own Linux user and systemd service, and agents hand off work through one bash CLI and a shared SQLite task queue.
 - [hcom](https://github.com/aannoo/hcom) - MIT-licensed coordination layer for coding-agent harnesses, with hook-driven messaging, activity observation, agent spawning, and event subscriptions across terminals.
+- [Raven](https://github.com/EverMind-AI/Raven) - Apache-2.0 host agent that plans complex tasks as DAGs and orchestrates built-in and third-party agents such as Claude Code and Codex over ACP, CLI, or OpenAI-compatible APIs; its agent loop is split into Memory, Planning, Capability, and Action strategy modules that an experimental Curator rewrites per agent, installing a change only after it is verified.
 
 ### Browser, MCP & Tool Integration
 
