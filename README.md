@@ -1,6 +1,6 @@
 # Awesome Harness Engineering [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of articles, playbooks, benchmarks, specifications, and open-source projects for harness engineering: the practice of shaping the environment around AI agents so they can work reliably.
+> Harness engineering is the practice of shaping the environment around AI agents so they can work reliably.
 
 Harness engineering sits at the intersection of context engineering, evaluation, observability, orchestration, safe autonomy, and software architecture. This list focuses on resources that make agents more dependable in real workflows, especially long-running coding and research tasks.
 
@@ -38,8 +38,6 @@ Generic agent tooling is out of scope unless the page directly covers harness de
   - [Multi-Agent Orchestration](#multi-agent-orchestration)
   - [Browser, MCP & Tool Integration](#browser-mcp--tool-integration)
   - [Workflow, Profiles & Asset Management](#workflow-profiles--asset-management)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Courses & Learning Resources
 
@@ -108,7 +106,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Lurkr](https://github.com/agentveil-protocol/lurkr) - Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in `@tool`, direct prompt interpolation, and unverified MCP endpoints.
 - [HEAAL](https://github.com/hyun06000/AIL) - Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).
 - [Odai](https://github.com/orziz/odai) - Cross-host governance layer that binds intent, evidence, authorization, risk, and acceptance to agent execution, with a portable Skill, inspectable DSH runtime, and published version-scoped paired evaluations.
-- [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time audit harness for AI coding agents: 28 deterministic, zero-token audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), an HMAC-chained tamper-evident audit history, and a DSH plugin family; installable as a GitHub Action or MCP server.
+- [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time audit harness for AI coding agents: 28 deterministic, zero-token audit rules over Git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), an HMAC-chained tamper-evident audit history, and a DSH plugin family; installable as a GitHub Action or MCP server.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Sourced database of real-world AI agent security incidents, useful as threat-model input for harness boundaries: sandbox escapes, destructive agent actions, prompt injection via repo content and agent-framework CVEs, each flagged for confirmed harm vs. demonstration only.
 
 ### Operational Autonomy & Reliability
@@ -216,7 +214,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [GTA](https://github.com/open-compass/GTA) - A benchmark that evaluates the tool-use capability of LLM-based agents using human-written queries, real deployed tools, and authentic multimodal inputs, exposing harness gaps between isolated testing and real deployment.
 - [MCP Bench](https://github.com/modelscope/MCPBench) - A benchmark for evaluating AI models on MCP server interactions, measuring tool accuracy, latency, and token use across server types, which directly reflects harness design choices around MCP integration.
 - [MCP Universe](https://mcp-universe.github.io/) - A leaderboard comparing AI model performance on MCP tasks, tracking how different models and harness configurations handle tool-augmented agent workflows.
-- [MCPMark](https://github.com/eval-sys/mcpmark) - A stress-testing benchmark for model and agent capabilities in real-world MCP tasks across tools like Notion, GitHub, and Postgres, making harness MCP integration quality directly measurable.
+- [MCPMark](https://github.com/eval-sys/mcpmark) - A stress-testing benchmark for model and agent capabilities in real-world MCP tasks across tools like Notion, GitHub, and PostgreSQL, making harness MCP integration quality directly measurable.
 - [τ-Bench](https://github.com/sierra-research/tau-bench) - A benchmark that emulates dynamic conversations between a simulated user and a language agent equipped with domain-specific API tools and policy guidelines, making it useful for evaluating harnesses built around structured tool use and policy enforcement.
 - [tau2-bench](https://github.com/sierra-research/tau2-bench) - A benchmark for realistic, multi-step agent tasks where success depends on tool use and execution quality rather than a single-shot answer.
 - [TravelPlanner](https://github.com/OSU-NLP-Group/TravelPlanner) - A benchmark for evaluating LLM agents on tool use and complex planning within multiple constraints, revealing how harness design handles multi-constraint satisfaction and long-horizon planning.
@@ -237,7 +235,6 @@ These benchmarks are especially useful when you want to compare harness quality,
 ### Safety, Robustness & Economic Agency
 
 - [ClawWork](https://github.com/HKUDS/ClawWork) - A real-world economic benchmark where AI agents complete professional tasks spanning 44 occupations, earning income while managing token costs and economic solvency, making it a direct test of harness efficiency under resource constraints.
-- [Olas Predict Benchmark](https://github.com/valory-xyz/olas-predict-benchmark) - A benchmark for evaluating agents on historical prediction market data, testing harness design for research, retrieval, and forecasting in long-horizon reasoning tasks.
 
 ## Runtimes, Harnesses & Reference Implementations
 
@@ -257,7 +254,6 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) - Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.
 - [Harbor](https://github.com/harbor-framework/harbor) - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
-- [Mitos](https://pkg.go.dev/mitos.run/mitos) - Go module documentation for snapshot-fork microVM sandboxes with declarative lifecycle control and parallel execution; the original source repository is currently unavailable.
 - [E2B](https://github.com/e2b-dev/E2B) - Apache-2.0 open-source sandboxed code-execution environments purpose-built for AI agents, with isolated runtimes, filesystem/network controls, and session lifecycle primitives for safe autonomous execution.
 
 ### Coding-Agent Harnesses
@@ -266,7 +262,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [deepagents](https://github.com/langchain-ai/deepagents) - LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.
 - [Citadel](https://github.com/SethGammon/Citadel) - A harness for Claude Code and OpenAI Codex with isolated worktrees, multi-agent coordination, and persisted memory and campaign state.
-- [Harness Evolver](https://github.com/raphaelchristi/harness-evolver) - Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and git worktree isolation. Based on Meta-Harness (Lee et al., 2026).
+- [Harness Evolver](https://github.com/raphaelchristi/harness-evolver) - Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and Git worktree isolation. Based on Meta-Harness (Lee et al., 2026).
 - [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - Geoffrey Huntley's write-up of "Ralph," a minimalist `while :; do cat PROMPT.md | claude-code; done` harness pattern that uses single-task loops, deterministic prompt stacking, and bounded subagent parallelism to drive long-running autonomous coding.
 - [RailWarden](https://github.com/advaith-1212/railwarden) - Deterministic control plane for multi-agent software work with dependency-aware packages, isolated worktrees, durable validation evidence, recovery checkpoints, and integration gates.
 - [OpenCode Agent Orchestration Kit](https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit) - Reproducible OpenCode harness with role-based agents, explicit handoffs, repo-local skills, safe installation, and mechanical contract validation.
@@ -328,6 +324,6 @@ If two links say the same thing, prefer the more primary, practical, and impleme
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines and the preferred entry format.
 
-## License
+## Footnotes
 
-[CC0 1.0](./LICENSE)
+Previously listed resources that are archived or unavailable are preserved in [historical resources](./historical-resources.md).
