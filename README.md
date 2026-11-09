@@ -63,6 +63,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime](https://www.preprints.org/manuscript/202603.1756) - A position paper that treats the harness layer as a first-class research object, proposes the **control–agency–runtime (CAR)** decomposition, and introduces **HarnessCard** for structured reporting of harness design and evaluation.
 - [Many Hands Engineering](https://github.com/mseeks/many-hands-engineering/blob/main/many-hands-engineering.pdf) - A handbook framing the layer above the per-agent harness: how multiple harnessed agents share a commons, where decisions belong on a planned / emergent spectrum, and how human stewardship operates at a different cadence than agent execution. Treats harness engineering as a critical layer of "terrain" the framework sits on top of.
 - [Agent Frameworks, Runtimes, and Harnesses, Oh My!](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) - LangChain's decomposition of what belongs in a framework, a runtime, and a harness.
+- [HARNESS-DB](https://github.com/harness-db/harness-db) - Open dataset of 1,256 LLM agent harnesses coded on 38 design dimensions (context, tools, loop, memory, verification, budgets, sandbox, observability), each value backed by a verbatim quote and a file:line@commit locator, so harness designs can be compared and checked against their source.
 
 ## Context, Memory & Working State
 
