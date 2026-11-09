@@ -90,6 +90,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Code execution with MCP: building more efficient agents](https://www.anthropic.com/engineering/code-execution-with-mcp) - Anthropic's approach to giving agents controlled execution power through explicit, inspectable tool boundaries.
 - [Writing effective tools for agents](https://www.anthropic.com/engineering/writing-tools-for-agents) - Anthropic's guidance on tool interfaces that are easier for models to call correctly and safely.
 - [mcp-guardian](https://github.com/S1LV3RJ1NX/mcp-guardian) - MCP proxy for progressive tool discovery, scope-based allow/block lists, and audit logging, reducing startup context while preventing blocked tools from being discovered or called.
+- [Dex](https://github.com/exmergo/dex) - Analytics-engineering skills that enforce their boundaries in the engine the agent calls rather than in the prompt: read-only warehouse access, a query firewall that keeps PII and raw rows out of context, cost quoted and confirmed before any spend, and every write returned as a reviewable diff.
 
 ### Security, Authorization & Policy
 
