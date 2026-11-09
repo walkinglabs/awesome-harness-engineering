@@ -46,6 +46,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) - A project-based course repository on making Codex and Claude Code more reliable, centered on an Electron personal knowledge base app with lecture handouts, example artifacts, and practical harness projects.
 - [Phelan164/codex-howto](https://github.com/Phelan164/codex-howto) - A Codex-focused engineering curriculum with installable skills, repository instructions, scoped permissions, testing, review, orchestration, and reproducible token measurements for building an inspectable coding-agent harness.
 - [hardness1020/awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) - Trilingual architecture notes and runnable demos covering agent loops, tool execution, memory, permissions, context delivery, and orchestration.
+- [What Is an Agent Harness? Harness Engineering Explained](https://tej.as/blog/what-is-an-agent-harness) - A build-along write-up that grows a TypeScript browser agent from a bare loop that lies about success into a harness with guardrails, context trimming, deterministic trace verification, retries, and harness-handled login, with one branch per step in [basically-ai-harness](https://github.com/TejasQ/basically-ai-harness).
 
 ## Foundations
 
@@ -62,6 +63,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime](https://www.preprints.org/manuscript/202603.1756) - A position paper that treats the harness layer as a first-class research object, proposes the **control–agency–runtime (CAR)** decomposition, and introduces **HarnessCard** for structured reporting of harness design and evaluation.
 - [Many Hands Engineering](https://github.com/mseeks/many-hands-engineering/blob/main/many-hands-engineering.pdf) - A handbook framing the layer above the per-agent harness: how multiple harnessed agents share a commons, where decisions belong on a planned / emergent spectrum, and how human stewardship operates at a different cadence than agent execution. Treats harness engineering as a critical layer of "terrain" the framework sits on top of.
 - [Agent Frameworks, Runtimes, and Harnesses, Oh My!](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) - LangChain's decomposition of what belongs in a framework, a runtime, and a harness.
+- [HARNESS-DB](https://github.com/harness-db/harness-db) - Open dataset of 1,256 LLM agent harnesses coded on 38 design dimensions (context, tools, loop, memory, verification, budgets, sandbox, observability), each value backed by a verbatim quote and a file:line@commit locator, so harness designs can be compared and checked against their source.
 
 ## Context, Memory & Working State
 
@@ -81,7 +83,9 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [wiki](https://github.com/plasma-ai/wiki) - Indexed Markdown knowledge bases that give agents incremental project context through deterministic indexes, scoped CLI access, and merge handling for parallel edits.
 - [Data Olympus](https://github.com/knaisoma/data-olympus) - Git-native project knowledge base and MCP server with governed proposal-to-acceptance workflows, validity windows, supersession chains, and retrieval of in-force engineering guidance.
+- [LWC](https://github.com/JanYork/llm-wiki-cli) - Local-first, source-grounded project memory that preserves verified decisions, Plan state, and source-linked Wiki and code context across coding-agent sessions.
 - [OpenViking](https://github.com/volcengine/OpenViking) - Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.
+- [pentimento](https://github.com/kjiwa/pentimento) - Derives status and lineage for the plan files coding agents leave behind, so a later session or its operator can tell which plan finished, which replaced which, and find the decisions inside them.
 
 ## Constraints, Guardrails & Safe Autonomy
 
@@ -96,13 +100,17 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Beyond permission prompts: making Claude Code more secure and autonomous](https://www.anthropic.com/engineering/claude-code-sandboxing) - Anthropic on reducing approval friction without losing control through better sandboxing and policy design.
 - [Mitigating Prompt Injection Attacks in Software Agents](https://openhands.dev/blog/mitigating-prompt-injection-attacks-in-software-agents) - OpenHands' practical guide to confirmation mode, analyzers, sandboxing, and hard policies for reducing prompt-injection risk in autonomous coding agents.
 - [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) - Deterministic pre-action authorization hooks for AI-agent tool calls, with adapters for Claude Code, Cursor, OpenClaw, LangChain, CrewAI, and related runtimes.
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Open-source local policy checks and human approval for supported coding-agent actions including shell commands, file access, package installs, and MCP tool calls; coverage depends on the agent integration.
 - [Lurkr](https://github.com/agentveil-protocol/lurkr) - Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in `@tool`, direct prompt interpolation, and unverified MCP endpoints.
 - [HEAAL](https://github.com/hyun06000/AIL) - Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Sourced database of real-world AI agent security incidents, useful as threat-model input for harness boundaries: sandbox escapes, destructive agent actions, prompt injection via repo content and agent-framework CVEs, each flagged for confirmed harm vs. demonstration only.
 
 ### Operational Autonomy & Reliability
 
 - [Spend rails for autonomous agents: a number, not a vibe](https://joeyycli.github.io/agent-ops-kit-guide/docs/spend-rails-for-autonomous-agents.html) - A concrete pattern for giving a scheduled agent real purchasing authority without real risk: a per-transaction autonomy line, an escalation threshold, a hard lifetime ceiling, and a transaction ledger as the actual enforcement mechanism instead of relying on the model's judgment.
 - [Distributed retry patterns: bounding blast radius across a fleet](https://loopandretry.github.io/posts/fleet-retry-patterns/) - Practitioner guidance on concurrency bounds, decorrelated backoff, circuit breakers, and idempotency for preventing agent retry storms.
+- [What breaks when you run twenty agents at once](https://jedarden.com/notes/what-breaks-at-twenty-agents/) - Failure taxonomy from a year of unattended coding-agent fleets: eight ways a fleet dies, none of them the model, and the operational discipline they add up to.
+- [Decomposition is concurrency control](https://jedarden.com/guides/workflow/#s06-decomposition-is-concurrency-control) - Cutting work into tasks is also choosing the concurrency: a design-time file partition ("Owns" lines) serialises overlapping tasks through dependency edges instead of runtime negotiation.
 
 ## Specs, Agent Files & Workflow Design
 
@@ -115,7 +123,9 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [GitHub Spec Kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.
 - [Context Repository-Driven Development (CRDD)](https://github.com/qual-lab/CRDD) - A repository-centered methodology for preserving product intent, decisions, specifications, evidence, and traceability as durable context while keeping approval authority with humans.
+- [Kibi](https://github.com/Looted/kibi) - Repo-local requirements linked to code and tests, with checks that help coding agents stay aligned with project intent.
 - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) - Thoughtworks on why strong specs make AI-assisted software delivery more dependable.
+- [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 
 ### Operating Principles & Human Oversight
 
@@ -138,12 +148,17 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) - Anthropic's guidance on what to measure when agents have many possible trajectories to success or failure.
 - [Evaluating Deep Agents: Our Learnings](https://blog.langchain.com/evaluating-deep-agents-our-learnings/) - LangChain's practical breakdown of single-step, full-run, and multi-turn eval design for stateful agents.
 
+- [Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report](https://arxiv.org/abs/2608.15763) - Technical report on training agents for changing harnesses, with held-out prompt and Skill edit evaluations that keep model weights fixed and document developer review.
+
 ### Verification & Quality Gates
 
+- [Agent Role Contracts (ARC)](https://github.com/suirindo/agent-role-contracts) - Offline Node.js preflight checks for declared coding-agent write scopes, separate read-only review roles, and handoffs. Produces deterministic failures for inconsistent declarations; runtime enforcement stays with the host.
 - [Assessing internal quality while coding with an agent](https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html) - Thoughtworks on moving quality checks into the loop instead of relying on after-the-fact manual review.
 - [Better Harness](https://github.com/QoderAI/better-harness) - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
 - [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
 - [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
+- [RunLedger](https://github.com/runledger/Runledger) - CI harness that records an agent's tool calls once and replays them in CI, so a PR fails when tool order or a JSON-schema contract breaks, a tool-call budget is exceeded, or a baseline regresses; emits JUnit and HTML reports. This makes harness verification a merge gate.
+- [Don't let the agent grade its own homework](https://jedarden.com/notes/dont-let-the-agent-grade-its-own-homework/) - An agent reporting "done" is the actor grading its own work; the cheap guard is an independent observer — a second agent, a separate tool, or the live artifact — spawned interactively and as a validation gate in a fleet.
 
 ### Telemetry, Tracing & Performance
 
@@ -152,6 +167,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI/CLI for auditing AI coding-agent session traces, health gates, cost spikes, tool failures, latency gaps, and attempt-to-attempt diffs.
 - [flameox](https://github.com/morluto/flameox) - Profiling and optimization toolkit for agents: bounded CLI and MCP workflows capture traces, preserve native evidence, and compare experiments behind runtime conclusions.
 - [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for auditing coding-agent sessions, costs, skills, tool usage, and OTLP events across multiple agent runtimes.
+- [traceAI](https://github.com/future-agi/traceAI) - Apache-2.0 OpenTelemetry instrumentation for 50+ AI frameworks across Python, TypeScript, Java and C# that records LLM calls, tool calls, retrieval and agent steps as standard spans, so harness traces stay portable to any OTel backend.
 - [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) - Anthropic on how runtime configuration can move coding benchmark scores by more than many leaderboard gaps.
 
 ## Benchmarks
@@ -166,6 +182,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [SEC-bench](https://github.com/SEC-bench/SEC-bench) - A benchmark for evaluating LLM agents on real-world software security tasks including vulnerability reproduction and patching, stressing harness design around code execution, containerized environments, and security-aware tooling.
 - [SWE-bench Verified](https://www.swebench.com/) - A strong benchmark for software engineering agents working against real GitHub issues and tests, which makes harness choices around retrieval, patching, and validation highly visible.
 - [Terminal-Bench](https://www.tbench.ai/) - A benchmark suite for terminal-native agents operating in shells, filesystems, and verification-heavy environments, which is especially useful for comparing coding-agent harnesses.
+- [LoopArena](https://github.com/AMAP-ML/LoopArena) - Open benchmark for evaluating models as runtime Controllers around a separate, fixed coding Worker. [Paper](https://huggingface.co/papers/2608.28281) · [ModelScope](https://www.modelscope.cn/papers/2608.28281)
 
 ### Web, GUI & Computer Use
 
@@ -181,6 +198,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [VisualWebArena](https://jykoh.com/vwa) - A benchmark for multimodal web agents on realistic visually grounded tasks, extending WebArena with image and screenshot inputs that stress harness support for visual context in browser environments.
 - [WebArena](https://webarena.dev/) - A standalone, self-hostable web environment for evaluating autonomous agents on realistic tasks, making it a reproducible baseline for comparing web-facing harness designs.
 - [WebArena-Verified](https://github.com/ServiceNow/webarena-verified) - A verified web-agent benchmark with curated tasks and deterministic evaluators over agent responses and captured network traces, making it a good fit for measuring web-facing harnesses.
+- [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) - Website reconstruction tasks with native Harbor configurations and a separate no-network verifier for checking coding-agent implementations.
 - [WorkArena](https://github.com/ServiceNow/WorkArena) - A benchmark for browser agents on common knowledge-work tasks, useful for comparing harnesses on realistic enterprise-style web workflows instead of toy browser tasks.
 
 ### Tools, APIs & MCP
@@ -223,12 +241,14 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 - [BitRouter](https://github.com/bitrouter/bitrouter) - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
+- [CUGA](https://github.com/cuga-project/cuga-agent) - IBM Research's Apache-2.0 agent harness on LangGraph: a planner and code-act executor keep intermediate results in variables instead of the prompt, and policies (intent guards, playbooks, tool approval) gate actions with human-in-the-loop approval across API and browser tools.
 
 ### Sandboxes & Execution Infrastructure
 
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) - Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.
 - [Harbor](https://github.com/harbor-framework/harbor) - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
 - [Mitos](https://github.com/mitos-run/mitos) - Snapshot-fork microVM sandboxes that give agent sessions clean, isolated starting states with declarative lifecycle control and parallel execution.
+- [E2B](https://github.com/e2b-dev/E2B) - Apache-2.0 open-source sandboxed code-execution environments purpose-built for AI agents, with isolated runtimes, filesystem/network controls, and session lifecycle primitives for safe autonomous execution.
 
 ### Coding-Agent Harnesses
 
@@ -243,19 +263,23 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agent AFK](https://github.com/griffinwork40/agent-afk) - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
 - [completely](https://github.com/23ag1/completely) - Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
+- [UNCUT](https://github.com/Balanov/uncut) - Inspectable MIT-licensed Go coding-agent harness with full-history requests, untruncated tool results, resumable JSONL sessions, and a reproducible lossless proof suite.
 
 ### Multi-Agent Orchestration
 
 - [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) - Anthropic's architecture write-up for a multi-agent system with separation of roles and structured coordination.
+- [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp) - MIT-licensed coordination protocol for coding agents across Claude Code, Codex, Cursor, Gemini CLI, and Grok Build, with explicit work claims, edit-overlap detection, durable messages, ownership transfer, and evidence-bearing handoffs exposed through five MCP workflow tools.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Local-first desktop harness for coordinating multiple agents with shared files, independent work contexts, human approval gates, and resumable execution.
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.
 - [Squadron](https://github.com/mlund01/squadron) - MIT-licensed declarative runtime for multi-agent workflows defined in HCL, including orchestration, state, dependency resolution, routing, persistence, and resume.
 - [Cowork Forge](https://github.com/sopaco/cowork-forge) - MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.
 - [Raven](https://github.com/EverMind-AI/Raven) - Apache-2.0 host agent that plans complex tasks as DAGs and orchestrates built-in and third-party agents such as Claude Code and Codex over ACP, CLI, or OpenAI-compatible APIs; its agent loop is split into Memory, Planning, Capability, and Action strategy modules that an experimental Curator rewrites per agent, installing a change only after it is verified.
+- [hcom](https://github.com/aannoo/hcom) - MIT-licensed coordination layer for coding-agent harnesses, with hook-driven messaging, activity observation, agent spawning, and event subscriptions across terminals.
 
 ### Browser, MCP & Tool Integration
 
 - [browser-use/browser-harness](https://github.com/browser-use/browser-harness) - A thin CDP-based browser harness that lets agents extend helper functions during execution, useful for inspecting self-healing web-task workflows.
+- [Jet Browser](https://github.com/masakaai/jet-browser) - Apache-2.0 WPE WebKit runtime that gives an agent harness one isolated browser session per container, an ordered JSONL execution boundary, native input, semantic and visual evidence, and a reproducible offline acceptance check.
 - [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) - Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and `unicli mcp serve` that auto-registers one MCP tool per adapter. ~80 tokens per invocation.
 - [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Inspectable runtime boundary for exposing a local agent or automation as a keyed LAN capability with target verification, bounded conversations, JSON output, and explicit exit codes.
 - [BrowserAct](https://github.com/browser-act/skills) - Open-source browser automation layer for agents with isolated parallel sessions, multi-account operation, and human handoff when automation is blocked.
@@ -269,6 +293,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [agent-harness](https://github.com/ar27111994/agent-harness) - Reproducible lifecycle for coding-agent assets with authority-ranked discovery, pinned mirrors, quarantine routing, staged activation, and host-specific wiring.
 - [codex-profiles](https://github.com/Ducksss/codex-profiles) - Codex CLI and Desktop profile launcher that isolates authentication, configuration, sessions, connectors, plugins, and logs by `CODEX_HOME`.
 - [AgentPlane](https://github.com/basilisk-labs/agentplane) - Git-native workflow-control harness that stores task records, policy, verification evidence, and closure state as reviewable repository artifacts.
+- [harness-scope](https://github.com/shimo4228/harness-scope) - MIT Claude Code mod that scopes a global harness per repo: named profiles in `~/.claude` decide which skills, agents, instruction files and tools each repo loads, with no network requests or model calls.
 
 ## Contributing
 
