@@ -76,6 +76,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Writing a good CLAUDE.md](https://www.humanlayer.dev/blog/writing-a-good-claude-md) - A practical guide to creating durable, repo-local instructions that agents can repeatedly follow.
 - [Deterministic Context Routing](https://github.com/ai-erp-collab/deterministic-context-routing) - A context-management methodology that routes only the necessary-and-sufficient context to an agent through a deterministic chain (module registry → wiki → session state), cutting overread and context loss on large, under-documented multi-module codebases.
 - [DevProjex](https://github.com/Avazbek22/DevProjex) - GUI, TUI, and CLI tooling for selecting and exporting structured codebase context with folder trees, token estimates, ignore rules, and previews.
+- [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault) - AGPL-3.0 archive of the system prompts and tool-call schemas that shipped coding harnesses send, one directory per product, each artifact labelled as captured off the wire or reported by the model itself, so context budgets and tool surfaces can be compared across harnesses and between a product's own interactive and headless modes.
 
 ### Memory & Knowledge Systems
 
