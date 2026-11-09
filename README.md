@@ -224,6 +224,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 - [BitRouter](https://github.com/bitrouter/bitrouter) - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
+- [Heym Agent Architecture](https://github.com/heymrun/heym/blob/main/frontend/src/docs/content/reference/agent-architecture.md) - Technical walkthrough of a self-hosted agent runtime, covering sub-agent dispatch, saved execution snapshots for human approval and resume, context compression, and redacted tool tracing.
 
 ### Sandboxes & Execution Infrastructure
 
