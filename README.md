@@ -224,6 +224,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [DSH Studio](https://github.com/Moresyl/dsh-studio) - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 - [BitRouter](https://github.com/bitrouter/bitrouter) - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
 - [rust-norion](https://github.com/yanghao1143/rust-norion) - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
+- [Reef](https://github.com/Human-Agent-Society/reef) - Apache-2.0 continual-learning runtime that serves agent traffic on OpenAI- and Anthropic-compatible endpoints, records each interaction behind a response-header receipt that later scores or feedback attach to, and batches eligible records into candidate updates to either model weights or the harness tree of rules, skills, prompts, and configuration. A configured evaluation compares candidate against current before publication, and accepted updates become versioned, rollback-capable artifacts served to later traffic without restarting the endpoint.
 
 ### Sandboxes & Execution Infrastructure
 
