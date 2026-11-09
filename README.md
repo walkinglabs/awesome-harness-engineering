@@ -261,6 +261,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 ### Coding-Agent Harnesses
 
+- [TeaQL Agent Kit](https://github.com/teaql/teaql-agent-kit) - Model-mediated coding-agent workflow for database-backed applications, combining deterministic domain-model evaluation and repair, typed code generation, and evidence-backed build/test verification.
 - [deepagents](https://github.com/langchain-ai/deepagents) - LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.
 - [Citadel](https://github.com/SethGammon/Citadel) - A harness for Claude Code and OpenAI Codex with isolated worktrees, multi-agent coordination, and persisted memory and campaign state.
