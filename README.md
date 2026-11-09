@@ -147,6 +147,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ### Verification & Quality Gates
 
+- [Agent Role Contracts (ARC)](https://github.com/suirindo/agent-role-contracts) - Offline Node.js preflight checks for declared coding-agent write scopes, separate read-only review roles, and handoffs. Produces deterministic failures for inconsistent declarations; runtime enforcement stays with the host.
 - [Assessing internal quality while coding with an agent](https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html) - Thoughtworks on moving quality checks into the loop instead of relying on after-the-fact manual review.
 - [Better Harness](https://github.com/QoderAI/better-harness) - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
 - [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
