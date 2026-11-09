@@ -114,6 +114,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 ### Spec-Driven Development
 
 - [GitHub Spec Kit](https://github.com/github/spec-kit) - GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.
+- [openspec-scaffold](https://github.com/ciliyun007/openspec-scaffold) - CLI that writes the four OpenSpec change files (proposal, spec, design, tasks) so a change starts with a written spec.
 - [Context Repository-Driven Development (CRDD)](https://github.com/qual-lab/CRDD) - A repository-centered methodology for preserving product intent, decisions, specifications, evidence, and traceability as durable context while keeping approval authority with humans.
 - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) - Thoughtworks on why strong specs make AI-assisted software delivery more dependable.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
