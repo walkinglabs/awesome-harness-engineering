@@ -160,6 +160,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI/CLI for auditing AI coding-agent session traces, health gates, cost spikes, tool failures, latency gaps, and attempt-to-attempt diffs.
 - [flameox](https://github.com/morluto/flameox) - Profiling and optimization toolkit for agents: bounded CLI and MCP workflows capture traces, preserve native evidence, and compare experiments behind runtime conclusions.
 - [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for auditing coding-agent sessions, costs, skills, tool usage, and OTLP events across multiple agent runtimes.
+- [traceAI](https://github.com/future-agi/traceAI) - Apache-2.0 OpenTelemetry instrumentation for 50+ AI frameworks across Python, TypeScript, Java and C# that records LLM calls, tool calls, retrieval and agent steps as standard spans, so harness traces stay portable to any OTel backend.
 - [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) - Anthropic on how runtime configuration can move coding benchmark scores by more than many leaderboard gaps.
 
 ## Benchmarks
