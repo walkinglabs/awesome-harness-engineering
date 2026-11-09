@@ -103,6 +103,8 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 - [Spend rails for autonomous agents: a number, not a vibe](https://joeyycli.github.io/agent-ops-kit-guide/docs/spend-rails-for-autonomous-agents.html) - A concrete pattern for giving a scheduled agent real purchasing authority without real risk: a per-transaction autonomy line, an escalation threshold, a hard lifetime ceiling, and a transaction ledger as the actual enforcement mechanism instead of relying on the model's judgment.
 - [Distributed retry patterns: bounding blast radius across a fleet](https://loopandretry.github.io/posts/fleet-retry-patterns/) - Practitioner guidance on concurrency bounds, decorrelated backoff, circuit breakers, and idempotency for preventing agent retry storms.
+- [What breaks when you run twenty agents at once](https://jedarden.com/notes/what-breaks-at-twenty-agents/) - Failure taxonomy from a year of unattended coding-agent fleets: eight ways a fleet dies, none of them the model, and the operational discipline they add up to.
+- [Decomposition is concurrency control](https://jedarden.com/guides/workflow/#s06-decomposition-is-concurrency-control) - Cutting work into tasks is also choosing the concurrency: a design-time file partition ("Owns" lines) serialises overlapping tasks through dependency edges instead of runtime negotiation.
 
 ## Specs, Agent Files & Workflow Design
 
@@ -145,6 +147,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Better Harness](https://github.com/QoderAI/better-harness) - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
 - [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
 - [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
+- [Don't let the agent grade its own homework](https://jedarden.com/notes/dont-let-the-agent-grade-its-own-homework/) - An agent reporting "done" is the actor grading its own work; the cheap guard is an independent observer — a second agent, a separate tool, or the live artifact — spawned interactively and as a validation gate in a fleet.
 
 ### Telemetry, Tracing & Performance
 
