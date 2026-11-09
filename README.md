@@ -267,6 +267,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 ### Multi-Agent Orchestration
 
 - [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) - Anthropic's architecture write-up for a multi-agent system with separation of roles and structured coordination.
+- [Concord MCP](https://github.com/Get-Concord-AI/concord-mcp) - MIT-licensed coordination protocol for coding agents across Claude Code, Codex, Cursor, Gemini CLI, and Grok Build, with explicit work claims, edit-overlap detection, durable messages, ownership transfer, and evidence-bearing handoffs exposed through five MCP workflow tools.
 - [Orkas](https://github.com/Orkas-AI/Orkas) - Local-first desktop harness for coordinating multiple agents with shared files, independent work contexts, human approval gates, and resumable execution.
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.
 - [Squadron](https://github.com/mlund01/squadron) - MIT-licensed declarative runtime for multi-agent workflows defined in HCL, including orchestration, state, dependency resolution, routing, persistence, and resume.
