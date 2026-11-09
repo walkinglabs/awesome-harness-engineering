@@ -244,6 +244,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agent AFK](https://github.com/griffinwork40/agent-afk) - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
 - [completely](https://github.com/23ag1/completely) - Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
+- [workkit](https://github.com/ITW-Creative-Works/workkit) - Claude Code plugin that runs GitHub Issues as the harness: an accepted spec gates each build, worker and verifier subagents split building from blind review, and hooks block a commit until the full test suite passes on exactly what is committed.
 
 ### Multi-Agent Orchestration
 
