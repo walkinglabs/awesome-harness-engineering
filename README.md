@@ -223,10 +223,10 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 ### Multi-Agent, General & Interactive
 
-- [Agent Arena](https://www.agent-arena.com/leaderboard) - A leaderboard that ranks AI agents, models, tools, and frameworks using ELO-style ratings from head-to-head battles, providing a structured way to compare harness-level choices across categories.
+- [Agent Arena](https://github.com/ShishirPatil/gorilla/tree/main/agent-arena) - Source code for the Gorilla project’s agent comparison platform, including its evaluation and leaderboard frontend; the original hosted leaderboard is currently unavailable.
 - [AgentBoard](https://github.com/HKUST-NLP/AgentBoard) - A benchmark for multi-turn LLM agents complemented by an analytical evaluation board for assessing model performance beyond final success rates, making partial-progress and trajectory quality visible.
 - [CharacterEval](https://github.com/morecry/CharacterEval) - A benchmark for evaluating role-playing conversational agents using multi-turn dialogues and character profiles, with metrics across four dimensions including character fidelity and conversational coherence.
-- [ClawBench](https://clawbench.net) - A benchmark that evaluates AI agents across search, reasoning, coding, safety, and multi-turn conversation tasks, covering the breadth of harness demands in a single suite.
+- [ClawBench](https://github.com/claw-bench/claw-bench) - A benchmark that evaluates AI agents across search, reasoning, coding, safety, and multi-turn conversation tasks, covering the breadth of harness demands in a single suite.
 - [GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA) - A benchmark for general AI assistants that is often used to compare harness-level choices around tools, planning, verification, and long-horizon autonomy.
 - [Galileo Agent Leaderboard](https://huggingface.co/spaces/galileo-ai/agent-leaderboard) - An open evaluation platform tracking LLM agents on task completion and tool calling across business domains, useful for comparing harness quality in enterprise-grade agentic scenarios.
 - [HAL: Holistic Agent Leaderboard](https://hal.cs.princeton.edu/) - A benchmark and leaderboard for agent systems with attention to reliability, cost, and broad task coverage, making it useful for comparing end-to-end harness behavior.
@@ -257,7 +257,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) - Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.
 - [Harbor](https://github.com/harbor-framework/harbor) - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
-- [Mitos](https://github.com/mitos-run/mitos) - Snapshot-fork microVM sandboxes that give agent sessions clean, isolated starting states with declarative lifecycle control and parallel execution.
+- [Mitos](https://pkg.go.dev/mitos.run/mitos) - Go module documentation for snapshot-fork microVM sandboxes with declarative lifecycle control and parallel execution; the original source repository is currently unavailable.
 - [E2B](https://github.com/e2b-dev/E2B) - Apache-2.0 open-source sandboxed code-execution environments purpose-built for AI agents, with isolated runtimes, filesystem/network controls, and session lifecycle primitives for safe autonomous execution.
 
 ### Coding-Agent Harnesses
