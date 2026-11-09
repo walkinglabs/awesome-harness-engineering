@@ -153,6 +153,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI/CLI for auditing AI coding-agent session traces, health gates, cost spikes, tool failures, latency gaps, and attempt-to-attempt diffs.
 - [flameox](https://github.com/morluto/flameox) - Profiling and optimization toolkit for agents: bounded CLI and MCP workflows capture traces, preserve native evidence, and compare experiments behind runtime conclusions.
 - [ax](https://github.com/Necmttn/ax) - Local-first telemetry and memory graph for auditing coding-agent sessions, costs, skills, tool usage, and OTLP events across multiple agent runtimes.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records a coding-agent session at the process and socket boundary — model traffic, shell exit codes, per-turn file changes and MCP JSON-RPC on one timeline — then replays it offline with the network off so the run is reproducible offline, or forks it from a checkpoint onto a different model.
 - [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) - Anthropic on how runtime configuration can move coding benchmark scores by more than many leaderboard gaps.
 
 ## Benchmarks
