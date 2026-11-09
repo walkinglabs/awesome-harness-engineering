@@ -104,6 +104,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Open-source local policy checks and human approval for supported coding-agent actions including shell commands, file access, package installs, and MCP tool calls; coverage depends on the agent integration.
 - [Lurkr](https://github.com/agentveil-protocol/lurkr) - Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in `@tool`, direct prompt interpolation, and unverified MCP endpoints.
 - [HEAAL](https://github.com/hyun06000/AIL) - Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).
+- [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time audit harness for AI coding agents: 28 deterministic, zero-token audit rules over git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), an HMAC-chained tamper-evident audit history, and a DSH plugin family; installable as a GitHub Action or MCP server.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Sourced database of real-world AI agent security incidents, useful as threat-model input for harness boundaries: sandbox escapes, destructive agent actions, prompt injection via repo content and agent-framework CVEs, each flagged for confirmed harm vs. demonstration only.
 
 ### Operational Autonomy & Reliability
