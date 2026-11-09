@@ -267,6 +267,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Agent AFK](https://github.com/griffinwork40/agent-afk) - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
 - [completely](https://github.com/23ag1/completely) - Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.
 - [forge-harness](https://github.com/chrono-meta/forge-harness) - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
+- [Revo](https://github.com/shyringo/revo) - MIT terminal harness whose unit of continuity is one long-lived agent life rather than a task-scoped session: cognition runs without user input, sleep/wake persists unfinished work and deliveries, and user input preempts in-flight parallel work.
 - [UNCUT](https://github.com/Balanov/uncut) - Inspectable MIT-licensed Go coding-agent harness with full-history requests, untruncated tool results, resumable JSONL sessions, and a reproducible lossless proof suite.
 
 ### Multi-Agent Orchestration
