@@ -24,6 +24,7 @@ jobs:
             --exclude '^https://platform\.openai\.com/docs/guides/evaluation-best-practices/?$'
             --exclude '^https://platform\.openai\.com/docs/guides/trace-grading/?$'
             --exclude '^https://www\.preprints\.org/manuscript/202603\.1756/?$'
+            --exclude '^https://ssrn\.com/abstract=7186738/?$'
             README.md
             CONTRIBUTING.md
           fail: true
