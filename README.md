@@ -166,6 +166,8 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [RunLedger](https://github.com/runledger/Runledger) - CI harness that records an agent's tool calls once and replays them in CI, so a PR fails when tool order or a JSON-schema contract breaks, a tool-call budget is exceeded, or a baseline regresses; emits JUnit and HTML reports. This makes harness verification a merge gate.
 - [Don't let the agent grade its own homework](https://jedarden.com/notes/dont-let-the-agent-grade-its-own-homework/) - An agent reporting "done" is the actor grading its own work; the cheap guard is an independent observer — a second agent, a separate tool, or the live artifact — spawned interactively and as a validation gate in a fleet.
 
+- [harness-engineering-starter](https://github.com/Kortix-seo/harness-engineering-starter) - A runnable reference for the checks end of a harness: one agent file, a governance-only `kortix.yaml` with deny-by-default grants, and three seeded sensors (import direction, JSDoc types, the tests) whose failure messages carry the fix.
+
 ### Telemetry, Tracing & Performance
 
 - [OpenTelemetry Semantic Conventions for Generative AI Systems](https://opentelemetry.io/docs/specs/semconv/gen-ai/) - Standard span, metric, event, and attribute conventions for instrumenting LLM and agent workflows so harness traces stay portable across observability backends.
