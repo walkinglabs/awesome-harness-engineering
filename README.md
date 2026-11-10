@@ -87,6 +87,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store that lets harnesses retrieve context and persist task handoffs through scoped, expiring MCP grants.
 - [pentimento](https://github.com/kjiwa/pentimento) - Derives status and lineage for the plan files coding agents leave behind, so a later session or its operator can tell which plan finished, which replaced which, and find the decisions inside them.
 - [Threadnote](https://github.com/threadnote/threadnote) - Local-first engineering memory for coding agents, with private session handoffs, reviewed knowledge tied to code citations, and optional Git-backed team sharing.
+- [deja-vu](https://github.com/vshulcz/deja-vu) - Local CLI and MCP server that indexes and searches session logs across 44 coding agents on the machine (Claude Code, Codex, Cursor, opencode, Cline, Zed, and more) with hybrid BM25 + graph recall, cross-agent session handoffs (`deja handoff`), and git-style session blame.
 
 ## Constraints, Guardrails & Safe Autonomy
 
