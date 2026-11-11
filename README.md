@@ -108,6 +108,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Odai](https://github.com/orziz/odai) - Cross-host governance layer that binds intent, evidence, authorization, risk, and acceptance to agent execution, with a portable Skill, inspectable DSH runtime, and published version-scoped paired evaluations.
 - [sofagent](https://github.com/KongFangXun/sofagent) - Commit-time audit harness for AI coding agents: 28 deterministic, zero-token audit rules over Git diffs (secrets, out-of-scope edits, blind modifications, prompt-injection traces), an HMAC-chained tamper-evident audit history, and a DSH plugin family; installable as a GitHub Action or MCP server.
 - [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Sourced database of real-world AI agent security incidents, useful as threat-model input for harness boundaries: sandbox escapes, destructive agent actions, prompt injection via repo content and agent-framework CVEs, each flagged for confirmed harm vs. demonstration only.
+- [Sipar](https://github.com/osimmoapies/sipar) - A small agent language whose runtime tracks where every value came from and refuses to pass model, web, file or tool output into a shell command, a file write or a URL until the program has checked it.
 
 ### Operational Autonomy & Reliability
 
