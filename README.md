@@ -111,6 +111,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ### Operational Autonomy & Reliability
 
+- [Agent Retry Rodeo](https://github.com/RishabhPande/agent-retry-rodeo) - Synthetic retry-failure exercises with persisted-state assertions and saved trace replay.
 - [Spend rails for autonomous agents: a number, not a vibe](https://joeyycli.github.io/agent-ops-kit-guide/docs/spend-rails-for-autonomous-agents.html) - A concrete pattern for giving a scheduled agent real purchasing authority without real risk: a per-transaction autonomy line, an escalation threshold, a hard lifetime ceiling, and a transaction ledger as the actual enforcement mechanism instead of relying on the model's judgment.
 - [Distributed retry patterns: bounding blast radius across a fleet](https://loopandretry.github.io/posts/fleet-retry-patterns/) - Practitioner guidance on concurrency bounds, decorrelated backoff, circuit breakers, and idempotency for preventing agent retry storms.
 - [How to add a circuit breaker to an AI agent loop](https://www.robatdasorvi.com/chapters/ai-agents/why-every-agentic-loop-needs-a-circuit-breaker-and-how-i-built-one) - Post-incident write-up from a scheduled agent whose lockout check fired while the loop ran 3.5 more days, then a second incident where detection missed entirely; argues for a global action integral, a duration bound, a process exit with a human-cleared sentinel, and tripping on missing success rather than only on known failure screens.
