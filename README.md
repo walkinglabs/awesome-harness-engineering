@@ -165,6 +165,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [self-auditing-agent](https://github.com/simin-yuan/self-auditing-agent) - A public audit log of one agent's real task in which every conclusion carries a runnable command and the record keeps the agent's own four bugs, one false positive, and one false discovery it caught itself: a concrete reference for making an agent's claims checkable by a third party and its failures part of the permanent record.
 - [RunLedger](https://github.com/runledger/Runledger) - CI harness that records an agent's tool calls once and replays them in CI, so a PR fails when tool order or a JSON-schema contract breaks, a tool-call budget is exceeded, or a baseline regresses; emits JUnit and HTML reports. This makes harness verification a merge gate.
 - [Don't let the agent grade its own homework](https://jedarden.com/notes/dont-let-the-agent-grade-its-own-homework/) - An agent reporting "done" is the actor grading its own work; the cheap guard is an independent observer — a second agent, a separate tool, or the live artifact — spawned interactively and as a validation gate in a fleet.
+- [Write the eval before the fix: building a WhatsApp transcriber with LLM-TDD](https://waldo.vanderlore.de/blog/whatyousay-privacy-voice-pipeline/) - Author's write-up of writing the eval before each fix on a voice-note transcriber, where word match rose from 69.9% to 86.4% and every live failure became a new check.
 
 ### Telemetry, Tracing & Performance
 
