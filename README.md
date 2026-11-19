@@ -131,6 +131,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Kibi](https://github.com/Looted/kibi) - Repo-local requirements linked to code and tests, with checks that help coding agents stay aligned with project intent.
 - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) - Thoughtworks on why strong specs make AI-assisted software delivery more dependable.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
+- [Adaptive Agentic SDD](https://github.com/seok-jun/adaptive-agentic-sdd) - Scales specs and reviews to change risk in existing codebases using Claude Code or Codex, with independent review and human merge approval for high-risk changes.
 
 ### Operating Principles & Human Oversight
 
