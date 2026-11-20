@@ -278,6 +278,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Revo](https://github.com/shyringo/revo) - MIT terminal harness whose unit of continuity is one long-lived agent life rather than a task-scoped session: cognition runs without user input, sleep/wake persists unfinished work and deliveries, and user input preempts in-flight parallel work.
 - [UNCUT](https://github.com/Balanov/uncut) - Inspectable MIT-licensed Go coding-agent harness with full-history requests, untruncated tool results, resumable JSONL sessions, and a reproducible lossless proof suite.
 - [Synaps](https://github.com/HaseebKhalid1507/SynapsCLI) - Rust agent harness for terminal coding agents: parallel subagents, a session daemon that terminals can share and resume, MCP tools, and plugins, across any model.
+- [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) - Apache-2.0 harness that runs Claude Code, Codex and 35+ other coding agents in parallel, each in an isolated git worktree, with an orchestrator session that plans and delegates tasks, per-worker status tracking, and review loops that carry each task to a merged PR.
 
 ### Multi-Agent Orchestration
 
