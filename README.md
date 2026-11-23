@@ -63,6 +63,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Agent Frameworks, Runtimes, and Harnesses, Oh My!](https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/) - LangChain's decomposition of what belongs in a framework, a runtime, and a harness.
 - [The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses for LLM Agents](https://ssrn.com/abstract=7186738) - A survey that treats the agent loop, not the model, as the unit of analysis: loop paradigms, termination and step budgets, verification, context management and recovery, skills, and harnesses, with a chapter on separating harness effects from model effects in evaluation.
 - [HARNESS-DB](https://github.com/harness-db/harness-db) - Open dataset of 1,256 LLM agent harnesses coded on 38 design dimensions (context, tools, loop, memory, verification, budgets, sandbox, observability), each value backed by a verbatim quote and a file:line@commit locator, so harness designs can be compared and checked against their source.
+- [what is an ai harness, and how is it different from the model and the app?](https://attenzioneplease.com/notes/what-is-an-ai-harness) - plain split of three things people mix up: the model is the chef, the harness is the kitchen, the app is the front of the house.
 
 ## Context, Memory & Working State
 
