@@ -87,6 +87,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) - Developer-alpha encrypted knowledge store that lets harnesses retrieve context and persist task handoffs through scoped, expiring MCP grants.
 - [pentimento](https://github.com/kjiwa/pentimento) - Derives status and lineage for the plan files coding agents leave behind, so a later session or its operator can tell which plan finished, which replaced which, and find the decisions inside them.
 - [Threadnote](https://github.com/threadnote/threadnote) - Local-first engineering memory for coding agents, with private session handoffs, reviewed knowledge tied to code citations, and optional Git-backed team sharing.
+- [Loom](https://github.com/ClickHouse/loom) - Self-hosted shared memory for agent harnesses over MCP and HTTP, with namespace-scoped access and lessons linked to indexed code so callers can check whether the underlying code changed.
 
 ## Constraints, Guardrails & Safe Autonomy
 
