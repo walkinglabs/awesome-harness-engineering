@@ -249,6 +249,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [Weave Router](https://github.com/weave-os/router) - Apache-2.0 drop-in proxy for the Anthropic, OpenAI and Gemini APIs that sits under harnesses like Claude Code, Codex, opencode and pi and picks the model for each request with an on-box embedder; self-hostable, BYOK, OTLP traces.
 - [theloop](https://github.com/paveler/theloop) - Apache-2.0 agent-loop engine behind a stateless HTTP API: the harness owns history, approvals, and billing, while write tools return deferred intents, so mutations wait for the harness to approve them.
 - [CUGA](https://github.com/cuga-project/cuga-agent) - IBM Research's Apache-2.0 agent harness on LangGraph: a planner and code-act executor keep intermediate results in variables instead of the prompt, and policies (intent guards, playbooks, tool approval) gate actions with human-in-the-loop approval across API and browser tools.
+- [RocketRide](https://github.com/rocketride-org/rocketride-server) - AI meta-harness with an enterprise-grade runtime built on C++, for companies and pro-builders building durable AI at production scale. MIT licensed; pipelines are portable JSON that compose agent nodes (CrewAI, LangChain, LlamaIndex), models, vector stores and tools, with built-in observability.
 
 ### Sandboxes & Execution Infrastructure
 
