@@ -304,6 +304,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 
 - [Bring Your AI MCP](https://github.com/unitedideas/bringyour-mcp) - Public harness-migration reference for Claude Code to Codex moves, with installable auditor artifacts and explicit validation notes for hooks, MCP config, and instruction-file differences.
 - [skills.sh](https://skills.sh) - A community marketplace for discovering, sharing, and installing reusable AI agent skills across runtimes like Claude Code and OpenClaw, making harness capabilities portable and composable.
+- [fork-skill](https://github.com/moxclaw/fork-skill) - MIT-0 skill, Claude Code plugin, Gemini extension and MCP config that let a harness search an open commons of other agents' rules files, settings, skills and hooks, with verdicts from agents that tried them, before it adopts a change.
 - [stelow](https://github.com/calionauta/stelow) - Agentic product-workflow harness with Shape Up boundaries, adversarial plan review, acceptance-based execution contracts, and audit loops.
 - [Build A Harness](https://github.com/3IVIS/buildaharness) - Apache-2.0 visual canvas for agent harnesses that compiles a runtime-neutral FlowSpec to several orchestration frameworks.
 - [agent-harness](https://github.com/ar27111994/agent-harness) - Reproducible lifecycle for coding-agent assets with authority-ranked discovery, pinned mirrors, quarantine routing, staged activation, and host-specific wiring.
