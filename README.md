@@ -299,6 +299,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 - [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) - Inspectable runtime boundary for exposing a local agent or automation as a keyed LAN capability with target verification, bounded conversations, JSON output, and explicit exit codes.
 - [BrowserAct](https://github.com/browser-act/skills) - Open-source browser automation layer for agents with isolated parallel sessions, multi-account operation, and human handoff when automation is blocked.
 - [Cortex](https://github.com/cortex-docs/cortex) - Generates project-specific MCP servers from API contracts and Markdown, with typed tools, specifications, SDK guidance, and project documentation kept together as inspectable source.
+- [AlphaSift](https://github.com/ZhuLinsen/alphasift) - Apache-2.0 Python harness for multi-market equity screening with a deterministic `<= 35` negative-disclosure risk cap, zero-lookahead purged walk-forward verification (`next_open`), portable `SKILL.md`, and a zero-dependency read-only STDIO MCP server (`14` tools, `4` resources).
 
 ### Workflow, Profiles & Asset Management
 
