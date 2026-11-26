@@ -131,6 +131,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 - [Kibi](https://github.com/Looted/kibi) - Repo-local requirements linked to code and tests, with checks that help coding agents stay aligned with project intent.
 - [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) - Thoughtworks on why strong specs make AI-assisted software delivery more dependable.
 - [Archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
+- [Internal Tool Blueprints](https://github.com/samclaassen/internal-tool-blueprints) - MIT-licensed Markdown specs for 37 internal business tools, each with phased build prompts and per-phase acceptance checks for a coding agent to work against, 28 of them build-tested by running every check in a browser.
 
 ### Operating Principles & Human Oversight
 
